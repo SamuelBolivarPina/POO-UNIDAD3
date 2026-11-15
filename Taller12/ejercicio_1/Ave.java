@@ -1,4 +1,4 @@
-public class Ave implements Volador,Cantante{
+public class Ave implements volador,Cantante{
     public String especie;
     public Ave(String especie){
         this.especie = especie;
