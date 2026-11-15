@@ -1,15 +1,16 @@
-public class pato implements volador,nadador{
+package Taller13.Ejercicio2;
+public class Pato implements volador, nadador {
     public String nombre;
-    public pato(String nombre){
+    public Pato(String nombre){
         this.nombre = nombre;
     }
     @Override
-    public void volar() {
+    public void Volar() {
         System.out.println("El pato " + nombre + " está volando bajo hacia el lago.");
     }
 
     @Override
-    public void nadar() {
+    public void Nadar() {
         System.out.println("El pato " + nombre + " está nadando tranquilamente en el agua.");
     }
 }
