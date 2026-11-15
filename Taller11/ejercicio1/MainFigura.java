@@ -6,13 +6,13 @@ public class MainFigura {
         // ya que las clases abstractas no se pueden instanciar directamente.
 
         // Usamos polimorfismo:
-        figura circulo = new Circulo(5.0);
-        figura rectangulo = new Rectangulo(4.0, 6.0);
+        figura Circulo = new Circulo(5.0);
+        figura Rectangulo = new Rectangulo(4.0, 6.0);
 
         System.out.print("Círculo -> ");
-        circulo.mostrarArea(); // Invoca el método concreto que a su vez usa el cálculo del círculo
+        Circulo.mostrarArea(); // Invoca el método concreto que a su vez usa el cálculo del círculo
 
         System.out.print("Rectángulo -> ");
-        rectangulo.mostrarArea(); // Invoca el método concreto que usa el cálculo del rectángulo
+        Rectangulo.mostrarArea(); // Invoca el método concreto que usa el cálculo del rectángulo
     }
 }

@@ -3,7 +3,7 @@ public abstract class figura {
     public abstract double calcularArea();
 
     // Método concreto compartido por las figuras
-    public void mostrarFigura() {
+    public void mostrarfigura() {
         System.out.println("El área calculada es: " + calcularArea());
     }
 }
