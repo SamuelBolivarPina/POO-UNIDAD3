@@ -1,4 +1,4 @@
-public class Gerente extends Empleado {
+public class Gerente extends EmpleadoAbstracto {
     public double bono;
 
     public Gerente(String nombre, double salarioBase, double bono){
