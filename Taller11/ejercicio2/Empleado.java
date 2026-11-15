@@ -7,7 +7,7 @@ public abstract class Empleado {
         this.salarioBase = salarioBase;
     }
     public abstract double calcularSalario();
-    public void mostrarDetalles(){
+    public void mostrardetalles(){
         System.out.println("Empleado: " + nombre);
         System.out.println("Salario total calculado: $" + calcularSalario());
         System.out.println("-----------------------------------");

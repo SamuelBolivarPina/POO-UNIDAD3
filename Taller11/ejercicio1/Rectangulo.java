@@ -1,4 +1,4 @@
-public class Rectangulo extends Figura{
+public class Rectangulo extends figura {
     public double base;
     public double altura;
 

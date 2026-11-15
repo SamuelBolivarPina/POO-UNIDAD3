@@ -1,4 +1,3 @@
-
 public class Gerente extends EmpleadoAbstracto {
     public double bono;
 
@@ -7,7 +6,7 @@ public class Gerente extends EmpleadoAbstracto {
         this.bono = bono;
     }
     @Override
-    public double calcularSalario(){
+    public void calcularSalario(){
 
         return salarioBase + bono;
     }

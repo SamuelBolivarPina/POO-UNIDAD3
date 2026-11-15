@@ -1,5 +1,5 @@
 
-public class Vendedor extends EmpleadoAbstracto {
+ public class Vendedor extends EmpleadoAbstracto {
     public double comisionVenta;
     public Vendedor (String nombre, double salarioBase,double comisionVenta){
         super (nombre,salarioBase);
