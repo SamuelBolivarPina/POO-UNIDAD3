@@ -6,4 +6,5 @@ public abstract class Empleado {
         this.nombre = nombre;
         this.salarioBase = salarioBase;
     }
+    public abstract double calcularSalario();
 }
