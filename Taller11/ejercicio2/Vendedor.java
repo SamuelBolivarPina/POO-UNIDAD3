@@ -4,4 +4,8 @@ public class Vendedor extends Empleado{
         super (nombre,salarioBase);
         this.comisionVenta = comisionVenta;
     }
+    @Override
+    public double calcularSalario(){
+        return salarioBase + comisionVenta;
+    }
 }
