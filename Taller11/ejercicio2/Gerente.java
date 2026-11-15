@@ -1,3 +1,4 @@
+
 public class Gerente extends EmpleadoAbstracto {
     public double bono;
 
@@ -7,6 +8,7 @@ public class Gerente extends EmpleadoAbstracto {
     }
     @Override
     public double calcularSalario(){
+
         return salarioBase + bono;
     }
 }
