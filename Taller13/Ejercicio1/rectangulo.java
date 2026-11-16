@@ -9,6 +9,7 @@ public class rectangulo extends figura {
 
     @Override
     public double calcularArea() {
+
         return base * altura; //
     }
 }

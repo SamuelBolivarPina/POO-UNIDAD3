@@ -1,5 +1,5 @@
 package Taller13.Ejercicio2;
-public class Pato implements volador, nadador {
+public class Pato implements Taller13.Ejercicio2.volador, Taller13.Ejercicio2.nadador {
     public String nombre;
     public Pato(String nombre){
         this.nombre = nombre;
