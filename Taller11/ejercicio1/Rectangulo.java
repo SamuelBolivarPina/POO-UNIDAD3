@@ -1,4 +1,5 @@
-public class Rectangulo extends figura {
+package Taller11.ejercicio1;
+public class Rectangulo extends Taller11.ejercicio1.Figura {
     public double base;
     public double altura;
 

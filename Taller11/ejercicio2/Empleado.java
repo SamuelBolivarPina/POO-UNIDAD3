@@ -1,3 +1,4 @@
+package Taller11.ejercicio2;
 public abstract class Empleado {
     public String nombre;
     public double salarioBase;
